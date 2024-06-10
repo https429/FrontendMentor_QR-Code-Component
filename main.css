@@ -13,6 +13,11 @@ html {
 
 body {
     background-color: var(--light-gray);
+    margin: 0;
+
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
 }
 
 #container {
@@ -23,6 +28,8 @@ body {
     padding: 1rem;
 
     border-radius: 1rem;
+
+    box-shadow: 0 11px 10px 10px rgba(0,0,0,0.1);
 }
 
 img {
